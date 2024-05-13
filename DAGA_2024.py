@@ -207,7 +207,7 @@ df_cop.tail()
 
 # READ CSV FILE WITH FULL ATTRIBUTES
 print('Shapes of the dataframes', val_x0.shape, val_x1.shape, val_x2.shape, class_attribute.shape)
-df_attr = pd.read_csv('/content/drive/MyDrive/Magister/Tesis/Features/Dataset_Full_Attr.csv', sep=';', decimal=',',  encoding='latin-1' )
+df_attr = pd.read_csv('/PATH/FOR/Dataset_FullAttr.csv', sep=';', decimal=',',  encoding='latin-1' )
 #Get the median value for Path and F80 features
 median_x = np.array([ df_attr['Path'][df_attr['Class'] == 'Healthy'].median(), df_attr['Path'][df_attr['Class'] == 'Diabetic'].median(), df_attr['Path'][df_attr['Class'] == 'Neuropathic'].median() ])
 median_y = np.array([ df_attr['F80'][df_attr['Class'] == 'Healthy'].median(), df_attr['F80'][df_attr['Class'] == 'Diabetic'].median(), df_attr['F80'][df_attr['Class'] == 'Neuropathic'].median() ])
