@@ -3,6 +3,7 @@
 This project is related to the paper :
 [Data augmentation and hierarchical classification to support the diagnosis of neuropathies based on time series analysis, 
 Claudio Meneses V., Jorge Littin C., David Coo Aqueveque., Juan Guerrero-Henriquez, Martin Vargas M.] 
+https://doi.org/10.1016/j.bspc.2024.106302
 
 If you use this algorithm in your research work, please cite this paper.
 
