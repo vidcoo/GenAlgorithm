@@ -16,5 +16,5 @@ Additional information:
 2) Inside the folders, files are grouped in participants folders.
 3) DAGA_2024.ipynb is a Google Colab file, then you can import it to check the code.
 4) DAGA_2024.py is the Python code, you can check it.
-5) Dataset_FullAttr.csv is a dataset with feature extracted from time series. This is used to get median value (Path and F80).
+5) Dataset_Full_Attr.csv is a dataset with feature extracted from time series. This is used to get median value (Path and F80).
 6) Some csv files inside "Files" folder are used only for graphing data.
